@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("image/phil.jpg");
+    background-size: 50%;
+    background-position: center;
+    height:50%;
+    padding: 20px;
+    align-items: center;
+    margin-left: 10rem;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+     max-width: 1000px;
+    box-shadow: 0 10px 20px black;
+    border-radius: 5px 5px 0 0;
+    background-color: purple;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+.header{
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+.bindingcode{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.eve{
+    gap: 0.5rem;
+    display: flex;
+    
+}
+.phone{
+    gap: 0.5rem;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+.logo-icon{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+ .main-title{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 15;
+    font-weight: bold;
+ }
+ .logo-text{
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+ }
+ .subtitle{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 35px;
+ }
+ .paymentinfo{
+     background-color: white;
+     border-top: 2px solid palevioletred;
+    border-bottom: 2px solid palevioletred;
+    padding: 50px;
+    border-radius: 0 0 10px 10px;
+    margin: 20px;
+ }
+  .transfer-fee{
+    background-color: palevioletred;
+    padding: 10px 15px;
+    color: white;
+    transform: rotate(45deg);
+    margin-left: 600px;
+    text-align:center ;
+     font-size: 25px;
+     font-weight: bold;
+     border-radius: 5px;
+     width:400px;
+     position: absolute; 
+     top: 0px;
+
+ } 
+ .info-section{
+    margin-bottom: 20px;
+    padding: 15px 0;
+    border-bottom: 3px solid palevioletred;
+}
+  .section-label{
+      border-radius:   0 0 10px 10px;
+      margin-bottom: 10px;
+    display: inline-block ;
+    padding: 15px 5px;
+    color: white;
+    background-color: palevioletred;
+    font-size: 12px;
+    text-align: center;
+    width: 10rem;
+    position: relative ;
+    bottom: 65px;
+    margin-left: 306px;
+
+  }
+   .section-labo{
+    border-radius:   0 0 10px 10px;
+    margin-bottom: 2px;
+    display: inline-block ;
+    padding: 15px 5px;
+    color: white;
+    background-color: palevioletred;
+    font-size: 12px;
+    text-align: center;
+    width: 10rem;
+    position: relative ;
+    bottom: 35px;
+    margin-left: 300px;
+    
+}
+  
+  
+  
+  .section-lab{
+    border-radius:   0 0 10px 10px;
+    margin-bottom: 2px;
+    display: inline-block ;
+    padding: 15px 5px;
+    color: white;
+    background-color: palevioletred;
+    font-size: 12px;
+    text-align: center;
+    width: 10rem;
+    position: relative ;
+    bottom: 20px;
+    margin-left: 300px;
+    
+}
+  .account-name{
+    text-align: center;
+    font-size:50px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  .section-labe{
+    border-radius:   0 0 10px 10px;
+    margin-bottom: 2px;
+    display: inline-block ;
+    padding: 15px 5px;
+    color: white;
+    background-color: palevioletred;
+    font-size: 12px;
+    text-align: center;
+    width: 10rem;
+    position: relative ;
+    bottom: 37px;
+    margin-left: 200px;
+    
+}
+.ami{
+    
+    width: 100%;
+     max-width: 1000px;
+    border-radius:0 0 5px 5px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+}
+.ima{
+    text-align: center;   
+    }
+.phil{
+       display: flex;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    margin-left: 20px;
+}
+.play{
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 10px;
+      margin-right: 200px;
+      
+
+}
+.tit {
+    width: 180px;
+    height: 40px;
+    margin-left: 15px;
+    opacity: 0.8;
+    border-color: white;
+    border-radius: 10px;
+    
+}
+.tilt{
+     width: 180px;
+    height: 40px;
+    margin-left: 20px;
+    opacity: 0.8;
+    border-color: white;
+    border-radius: 10px;
+
+}
+.till{
+    
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    justify-content:space-around ;
+    opacity: 0.8;
+    border-color: white;
+    border-radius: 10px;
+    
+}
+.on{
+    text-align: center;
+    margin-top: -65px;
+}
+
+.fab{
+    margin-left: -15px;
+}
+.aim{
+    gap: 0.5rem;
+    
+}
+.us{
+    margin-left: 180px;
+    display: flex;
+}
+.store{
+    margin-right: 70px;
+    margin-bottom: 60px;
+    height: 10px;
+    width: 40px;
+     
+    }  
+    .cbn{
+        
+        margin-right: 30px;
+        margin-bottom: 50px;
+
+        
+    }  

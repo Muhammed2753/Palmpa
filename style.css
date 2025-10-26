@@ -23,7 +23,7 @@ body{
     box-shadow: 0 10px 20px black;
     border-radius: 5px 5px 0 0;
     background-color: purple;
-    overflow: visible;
+    overflow: hidden;
     position: relative;
     align-items: center;
     justify-content: center;

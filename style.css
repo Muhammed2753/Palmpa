@@ -1,237 +1,372 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Times New Roman', Times, serif;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
 }
 
-body {
-  background: url("image/phil.jpg") center/cover no-repeat fixed;
-  min-height: 100vh;
-  padding: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body{
+    background-image: url("image/phil.jpg");
+    background-size: 50%;
+    background-position: center;
+    height:50%;
+    padding: 20px;
+    align-items: center;
+    margin-left: 10rem;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+     max-width: 1000px;
+    box-shadow: 0 10px 20px black;
+    border-radius: 5px 5px 0 0;
+    background-color: purple;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+.header{
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+.bindingcode{
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+.eve{
+    gap: 0.5rem;
+    display: flex;
+    
+}
+.phone{
+    gap: 0.5rem;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+.logo-icon{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+ .main-title{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 15;
+    font-weight: bold;
+ }
+ .logo-text{
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+ }
+ .subtitle{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 35px;
+ }
+ .paymentinfo{
+     background-color: white;
+     border-top: 2px solid palevioletred;
+    border-bottom: 2px solid palevioletred;
+    padding: 50px;
+    border-radius: 0 0 10px 10px;
+    margin: 20px;
+ }
+  .transfer-fee{
+    background-color: palevioletred;
+    padding: 10px 15px;
+    color: white;
+    transform: rotate(45deg);
+    margin-left: 600px;
+    text-align:center ;
+     font-size: 25px;
+     font-weight: bold;
+     border-radius: 5px;
+     width:400px;
+     position: absolute; 
+     top: 0px;
+
+ } 
+ .info-section{
+    margin-bottom: 20px;
+    padding: 15px 0;
+    border-bottom: 3px solid palevioletred;
+}
+  .section-label{
+      border-radius:   0 0 10px 10px;
+      margin-bottom: 10px;
+    display: inline-block ;
+    padding: 15px 5px;
+    color: white;
+    background-color: palevioletred;
+    font-size: 12px;
+    text-align: center;
+    width: 10rem;
+    position: relative ;
+    bottom: 65px;
+    margin-left: 306px;
+
+  }
+   .section-labo{
+    border-radius:   0 0 10px 10px;
+    margin-bottom: 2px;
+    display: inline-block ;
+    padding: 15px 5px;
+    color: white;
+    background-color: palevioletred;
+    font-size: 12px;
+    text-align: center;
+    width: 10rem;
+    position: relative ;
+    bottom: 35px;
+    margin-left: 300px;
+    
+}
+  
+  
+  
+  .section-lab{
+    border-radius:   0 0 10px 10px;
+    margin-bottom: 2px;
+    display: inline-block ;
+    padding: 15px 5px;
+    color: white;
+    background-color: palevioletred;
+    font-size: 12px;
+    text-align: center;
+    width: 10rem;
+    position: relative ;
+    bottom: 20px;
+    margin-left: 300px;
+    
+}
+  .account-name{
+    text-align: center;
+    font-size:50px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  .section-labe{
+    border-radius:   0 0 10px 10px;
+    margin-bottom: 2px;
+    display: inline-block ;
+    padding: 15px 5px;
+    color: white;
+    background-color: palevioletred;
+    font-size: 12px;
+    text-align: center;
+    width: 10rem;
+    position: relative ;
+    bottom: 37px;
+    margin-left: 200px;
+    
+}
+.ami{
+    
+    width: 100%;
+     max-width: 1000px;
+    border-radius:0 0 5px 5px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 50px;
+}
+.ima{
+    text-align: center;   
+    }
+.phil{
+       display: flex;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    margin-left: 20px;
+}
+.play{
+      display: flex;
+      justify-content: space-evenly;
+      font-size: 10px;
+      margin-right: 200px;
+      
+
+}
+.tit {
+    width: 180px;
+    height: 40px;
+    margin-left: 15px;
+    opacity: 0.8;
+    border-color: white;
+    border-radius: 10px;
+    
+}
+.tilt{
+     width: 180px;
+    height: 40px;
+    margin-left: 20px;
+    opacity: 0.8;
+    border-color: white;
+    border-radius: 10px;
+
+}
+.till{
+    
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    justify-content:space-around ;
+    opacity: 0.8;
+    border-color: white;
+    border-radius: 10px;
+    
+}
+.on{
+    text-align: center;
+    margin-top: -65px;
 }
 
-.container {
-  width: 100%;
-  max-width: 900px;
-  background: purple;
-  border-radius: 10px 10px 0 0;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
-  overflow: hidden;
-  padding: 24px 16px;
-  margin-bottom: 20px;
-  position: relative;
+.fab{
+    margin-left: -15px;
 }
-
-/* === HEADER === */
-.bindingcode {
-  color: white;
-  font-size: 13px;
-  position: absolute;
-  top: 12px;
-  left: 16px;
+.aim{
+    gap: 0.5rem;
+    
 }
-
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  margin: 16px 0;
+.us{
+    margin-left: 180px;
+    display: flex;
 }
+.store{
+    margin-right: 70px;
+    margin-bottom: 60px;
+    height: 10px;
+    width: 40px;
+     
+    }  
+    .cbn{
+        
+        margin-right: 30px;
+        margin-bottom: 50px;
 
-.logo img {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
-}
-
-.logo-text {
-  color: white;
-  font-size: 26px;
-  font-weight: bold;
-}
-
-.main-title {
-  color: white;
-  font-size: 42px;
-  font-weight: bold;
-  text-align: center;
-  margin: 12px 0;
-}
-
-.subtitle {
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-/* === ROTATED TRANSFER FEE (kept as requested) === */
-.transfer-fee {
-  position: absolute;
-  top: -28px;
-  right: -60px;
-  background: palevioletred;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 8px 24px;
-  transform: rotate(45deg);
-  white-space: nowrap;
-  z-index: 2;
-}
-
-/* === PAYMENT INFO === */
-.paymentinfo {
-  background: white;
-  padding: 24px 12px;
-  margin: 0 -12px;
-  border-top: 2px solid palevioletred;
-  border-bottom: 2px solid palevioletred;
-}
-
-.info-section {
-  margin-bottom: 28px;
-  text-align: center;
-}
-
-.section-label,
-.section-labo,
-.section-lab {
-  display: inline-block;
-  background: palevioletred;
-  color: white;
-  font-size: 14px;
-  padding: 6px 14px;
-  border-radius: 0 0 6px 6px;
-  margin-bottom: 0;
-  position: relative;
-  top: -2px; /* touches the line */
-}
-
-.account-name {
-  font-size: 38px;
-  font-weight: bold;
-  margin-top: 10px;
-  display: block;
-}
-
-/* === FOOTER === */
-.ami {
-  width: 100%;
-  max-width: 900px;
-  background: white;
-  border-radius: 0 0 10px 10px;
-  padding: 20px 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.ima {
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 16px;
-}
-
-.phil {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-}
-
-.contact-col {
-  text-align: center;
-  min-width: 180px;
-}
-
-.aim {
-  font-weight: bold;
-  margin-bottom: 12px;
-  font-size: 16px;
-}
-
-.phone, .eve {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  font-size: 15px;
-  margin: 4px 0;
-}
-
-/* === BUTTONS === */
-.play {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 14px;
-  margin-top: 12px;
-}
-
-.btn {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: #f8f8f8;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 8px 12px;
-  font-size: 12px;
-  min-width: 150px;
-  text-align: center;
-  cursor: pointer;
-}
-
-.btn img {
-  height: 20px;
-  width: auto;
-}
-
-.btn i {
-  font-size: 18px;
-}
-
-/* === MOBILE-FIRST RESPONSIVE === */
+        
+    }  
+/* ===== MOBILE RESPONSIVE FIXES (DOES NOT CHANGE DESKTOP) ===== */
 @media (max-width: 768px) {
-  .main-title { font-size: 34px; }
-  .account-name { font-size: 30px; }
-  .transfer-fee {
-    font-size: 17px;
-    top: -24px;
-    right: -50px;
-    padding: 7px 20px;
+  body {
+    margin-left: 0 !important;
+    padding: 12px !important;
+    background-size: cover !important;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  .container, .ami {
-    padding: 18px 12px;
-  }
-  .paymentinfo {
-    padding: 20px 8px;
-    margin: 0 -8px;
-  }
-  .btn {
-    min-width: 140px;
-    padding: 7px 10px;
-    font-size: 11px;
-  }
-}
 
-@media (max-width: 480px) {
-  .main-title { font-size: 28px; }
-  .account-name { font-size: 24px; }
-  .transfer-fee {
-    font-size: 15px;
-    top: -22px;
-    right: -45px;
-    padding: 6px 16px;
+  .container {
+    padding: 2rem 1.2rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
-  .logo-text { font-size: 22px; }
-  .btn {
-    min-width: 130px;
-    font-size: 10px;
+
+  .main-title {
+    font-size: 36px !important;
+  }
+
+  .subtitle {
+    font-size: 18px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .account-name {
+    font-size: 38px !important;
+  }
+
+  /* Keep rotated banner, but adjust position for small screens */
+  .transfer-fee {
+    font-size: 20px !important;
+    width: 320px !important;
+    margin-left: 280px !important; /* reduced from 600px */
+    top: -10px !important;
+    padding: 8px 12px !important;
+  }
+
+  /* Fix label positions on mobile */
+  .section-label {
+    margin-left: 120px !important; /* reduced from 306px */
+    bottom: 50px !important;
+    font-size: 13px !important;
+    padding: 12px 8px !important;
+  }
+
+  .section-labo {
+    margin-left: 110px !important; /* reduced from 300px */
+    bottom: 30px !important;
+    font-size: 13px !important;
+    padding: 12px 8px !important;
+  }
+
+  .section-lab {
+    margin-left: 110px !important;
+    bottom: 18px !important;
+    font-size: 13px !important;
+    padding: 12px 8px !important;
+  }
+
+  .paymentinfo {
+    padding: 30px 10px !important;
+    margin: 15px !important;
+  }
+
+  /* Footer adjustments */
+  .phil {
+    margin-left: 0 !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 15px !important;
+  }
+
+  .play {
+    margin-right: 0 !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+  }
+
+  .tit, .tilt, .till {
+    width: 160px !important;
+    height: auto !important;
+    padding: 6px 10px !important;
+    margin-left: 0 !important;
+    font-size: 12px !important;
+  }
+
+  .on {
+    margin-top: -50px !important;
+    font-size: 12px !important;
+  }
+
+  .store, .cbn {
+    margin-bottom: 40px !important;
+    margin-right: 0 !important;
+  }
+
+  .us {
+    margin-left: 0 !important;
+    justify-content: center !important;
   }
 }

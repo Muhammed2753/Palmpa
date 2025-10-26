@@ -265,3 +265,83 @@ img{
 
         
     }  
+/* ===== RESPONSIVE FIXES (PHONE & TABLET) ===== */
+@media (max-width: 768px) {
+  body {
+    margin-left: 0 !important; /* override desktop margin */
+    padding: 10px !important;
+    background-size: cover !important;
+  }
+
+  .container {
+    padding: 1.5rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .main-title {
+    font-size: 32px !important;
+  }
+
+  .subtitle {
+    font-size: 18px !important;
+  }
+
+  .account-name {
+    font-size: 28px !important;
+  }
+
+  /* Keep rotated banner, but adjust position for small screens */
+  .transfer-fee {
+    font-size: 18px !important;
+    width: 300px !important;
+    margin-left: 400px !important; /* reduced from 600px */
+    top: -10px !important;
+    padding: 8px !important;
+  }
+
+  /* Fix label positions on mobile */
+  .section-label,
+  .section-labo,
+  .section-lab {
+    margin-left: 150px !important; /* reduced from 300+px */
+    font-size: 13px !important;
+    padding: 10px 8px !important;
+  }
+
+  .section-label { bottom: 55px !important; }
+  .section-labo { bottom: 30px !important; }
+  .section-lab  { bottom: 15px !important; }
+
+  /* Footer: stack content vertically */
+  .phil {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 15px !important;
+    margin-left: 0 !important;
+  }
+
+  .play {
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-right: 0 !important;
+    gap: 10px !important;
+  }
+
+  .tit, .tilt, .till {
+    width: 160px !important;
+    height: auto !important;
+    padding: 6px 10px !important;
+    font-size: 12px !important;
+  }
+
+  .on p, .till p {
+    font-size: 11px !important;
+    margin: 2px 0 !important;
+  }
+
+  .store img, .cbn img, .ndic img {
+    height: 20px !important;
+    width: auto !important;
+  }
+}

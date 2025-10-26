@@ -23,7 +23,7 @@ body{
     box-shadow: 0 10px 20px black;
     border-radius: 5px 5px 0 0;
     background-color: purple;
-    overflow: hidden;
+    overflow: visible;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -92,21 +92,22 @@ img{
     border-radius: 0 0 10px 10px;
     margin: 20px;
  }
-  .transfer-fee{
-    background-color: palevioletred;
-    padding: 10px 15px;
-    color: white;
-    transform: rotate(45deg);
-    margin-left: 600px;
-    text-align:center ;
-     font-size: 25px;
-     font-weight: bold;
-     border-radius: 5px;
-     width:400px;
-     position: absolute; 
-     top: 0px;
-
- } 
+.transfer-fee {
+  background-color: palevioletred;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 5px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -25px;
+  right: -70px; /* slightly more to the right */
+  white-space: nowrap;
+  z-index: 2;
+  min-width: 280px; /* ensures full text fits */
+}
  .info-section{
     margin-bottom: 20px;
     padding: 15px 0;

@@ -295,35 +295,36 @@ img{
 
   /* Keep rotated banner — adjust position for phone */
   .transfer-fee {
-    font-size: 20px !important;
+    font-size: 13px !important;
     width: 300px !important;
-    margin-left: 250px !important; /* was 600px */
+    margin-left: 140px !important; /* was 600px */
+    margin-top: 20px !important; /* was 600px */
     top: -10px !important;
     padding: 8px 12px !important;
   }
 
   /* Center labels by reducing left margin */
   .section-label {
-    margin-left: 120px !important; /* was 306px */
-    bottom: 50px !important;
+    margin-left: 90px !important; /* was 306px */
+    bottom: 45px !important;
     font-size: 13px !important;
   }
 
   .section-labo {
-    margin-left: 110px !important; /* was 300px */
-    bottom: 30px !important;
+    margin-left: 90px !important; /* was 300px */
+    bottom: 35px !important;
     font-size: 13px !important;
   }
 
   .section-lab {
-    margin-left: 110px !important; /* was 300px */
-    bottom: 18px !important;
+    margin-left: 90px !important; /* was 300px */
+    bottom: 20px !important;
     font-size: 13px !important;
   }
 
   .paymentinfo {
     padding: 30px 10px !important;
-    margin: 15px !important;
+    margin: 0px !important;
   }
 
   /* Footer: stack vertically */

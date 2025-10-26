@@ -300,8 +300,8 @@ img{
   .transfer-fee {
     font-size: 13px !important;
     width: 300px !important;
-    margin-left: 140px !important; /* was 600px */
-    margin-top: 20px !important; /* was 600px */
+    margin-right: -20px !important; /* was 600px */
+    margin-top: 15px !important; /* was 600px */
     top: -10px !important;
     padding: 8px 12px !important;
   }
